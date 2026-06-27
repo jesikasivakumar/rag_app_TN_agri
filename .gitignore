@@ -1,0 +1,12 @@
+# Sensitive Environment Variables
+.env
+
+# Python Virtual Environment
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Local Vector Databases/Indexes (Optional: ignore if you only want to build them locally)
+faiss_index/
+chroma_db/
